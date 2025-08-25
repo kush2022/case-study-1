@@ -1,0 +1,27 @@
+[
+  {
+    "claim_id": "A125",
+    "exclusion_reason": "Patient ID is null",
+    "source_system": "alpha"
+  },
+  {
+    "claim_id": "A126",
+    "exclusion_reason": "Status is 'approved', not denied",
+    "source_system": "alpha"
+  },
+  {
+    "claim_id": "B987",
+    "exclusion_reason": "Known non-retryable reason: 'incorrect provider type'",
+    "source_system": "beta"
+  },
+  {
+    "claim_id": "B989",
+    "exclusion_reason": "Status is 'approved', not denied",
+    "source_system": "beta"
+  },
+  {
+    "claim_id": "B990",
+    "exclusion_reason": "Patient ID is null",
+    "source_system": "beta"
+  }
+]

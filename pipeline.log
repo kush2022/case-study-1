@@ -1,0 +1,14 @@
+2025-08-25 05:33:51,231 - INFO - Starting claim resubmission pipeline
+2025-08-25 05:33:51,232 - INFO - Processing CSV source: emr_alpha.csv
+2025-08-25 05:33:51,233 - INFO - Creating sample CSV data
+2025-08-25 05:33:51,260 - INFO - Processing JSON source: emr_beta.json
+2025-08-25 05:33:51,261 - INFO - Creating sample JSON data
+2025-08-25 05:33:51,264 - INFO - Processed 9 total claims
+2025-08-25 05:33:51,268 - INFO - === PIPELINE METRICS ===
+2025-08-25 05:33:51,269 - INFO - Total claims processed: 9
+2025-08-25 05:33:51,269 - INFO - Claims from Alpha EMR: 5
+2025-08-25 05:33:51,270 - INFO - Claims from Beta EMR: 4
+2025-08-25 05:33:51,270 - INFO - Flagged for resubmission: 4
+2025-08-25 05:33:51,270 - INFO - Excluded from resubmission: 5
+2025-08-25 05:33:51,271 - INFO - Malformed records: 0
+2025-08-25 05:33:51,271 - INFO - ========================
