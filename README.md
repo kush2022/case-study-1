@@ -37,6 +37,7 @@ pip install pandas
 1. **Prepare Input Files**
 
    By default, the script expects:
+
    - `emr_alpha.csv` (CSV data from EMR Alpha)
    - `emr_beta.json` (JSON data from EMR Beta)
 
@@ -53,6 +54,7 @@ pip install pandas
 3. **Review Output**
 
    After execution, the following files will be generated/updated:
+
    - `resubmission_candidates.json`: List of claims eligible for resubmission
    - `excluded_claims.json`: List of claims excluded from resubmission with reasons
    - `pipeline.log`: Log file with detailed processing information and metrics
@@ -60,10 +62,12 @@ pip install pandas
 ## Pipeline Workflow
 
 1. **Ingestion**
+
    - Reads and normalizes data from both CSV and JSON sources.
    - Handles missing or malformed records gracefully, logging any issues.
 
 2. **Eligibility Determination**
+
    - Applies business rules to each claim to determine resubmission eligibility.
    - Uses a mock classifier for ambiguous denial reasons (can be replaced with an actual ML/LLM model).
 
@@ -107,7 +111,3 @@ case_study_1/
 ├── pipeline.log
 └── README.md
 ```
-
-## License
-
-This project is provided for educational and demonstration purposes.
