@@ -66,7 +66,6 @@ class ClaimProcessor:
         reason_lower = reason.lower().strip()
         
         # Hardcoded classification for demo purposes
-        # In production, this would use an LLM or ML model
         ambiguous_retryable = {
             "form incomplete": True,
             "incorrect procedure": True,  # Could be a simple coding error
